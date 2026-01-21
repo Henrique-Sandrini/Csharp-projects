@@ -1,6 +1,7 @@
 ﻿using System;
 using tabuleiro;
+using xadrez_console;
 
-Posicao p;
+Tabuleiro tab = new Tabuleiro(8, 8);
 
-p = new Posicao(3, 4);
+Tela.imprimirTabuleiro(tab);
