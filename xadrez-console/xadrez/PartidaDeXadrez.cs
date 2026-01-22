@@ -133,6 +133,7 @@ namespace xadrez {
                 }
             }
 
+
             if (estaEmXeque(adversaria(jogadorAtual))) {
                 xeque = true;
             }
